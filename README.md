@@ -14,7 +14,7 @@ These Terraform templates will deploy a Google GKE cluster with Enforcer install
     - Go to Network Security -> Namespaces -> Authorizations
     - click on the "+" sign and create a cloud auto-registration policy
     - Under "Auto-registration":
-        - For Cloud Provider, choose GKE
+        - For Cloud Provider, choose GCP
         - For Claims, enter the key=value pairs:
             - projectid=<Google_Project_ID>
 
